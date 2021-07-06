@@ -53,3 +53,10 @@ I used the `ReLU` activation function for the hidden layers, and `Sigmoid` for t
 Applied binning to the `ASK_AMT` feature to organize the values by set intervals \
 Added more hidden layers to the model \
 I also used a different activation function in the hidden layers (`tanh`), which gave us the highest accuracy score out of all other attempts, but still under 75%
+
+## Summary
+
+Unfortunately, even after all attempts to optimize the model, the accuracy did not reach our minimum requirement of 75%. Therefore, we cannot successfully use this model to classify charitable donations. Due to the fact that the target variable is binary, making this a binary classification, supervised machine learning could be useful in trying to classify the success of charitable donations, rather than deep learning. Perhaps the Random Forest Classifier could be used in this model to create decision trees that could classify the target variable. 
+
+### Contact 
+Email: mishaal22s@gmail.com
