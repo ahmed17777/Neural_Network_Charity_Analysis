@@ -3,7 +3,7 @@
 Syed Ahmed 
 July 6, 2021 
 
-![images](https://user-images.githubusercontent.com/45697471/124657472-8a202d00-de70-11eb-9ff7-6c69c29054f4.jpg)
+![artificial-intelligence-deep-learning-neural-networks-ai](https://user-images.githubusercontent.com/45697471/124657543-9dcb9380-de70-11eb-84ef-6d27550421f6.jpg)
 
 
 ## Overview 
