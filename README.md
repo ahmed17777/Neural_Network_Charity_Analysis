@@ -43,3 +43,13 @@ Here is what I found after using deep learning the analyze the dataset:
 - The first step was to remove `EIN` and `NAME` columns from the input data, as they were not relevant to our analysis
 - The `IS_SUCCESSFUL` column was our target variable for the deep learning model, as it contains binary data referring to whether or not the charity donation was successful 
 - I used the following columns as features for the model: `APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT`
+
+### Compiling, Training, and Evaluating the Model 
+
+- As we can see from the image, the neural network model has two hidden layers with 80 neurons in the first layer and 30 in the second \
+I used the `ReLU` activation function for the hidden layers, and `Sigmoid` for the output layer 
+- The original model accuracy was about 73%, which is not optimal to predict the outcome of the charity donations 
+- To improve the performance of the model, I did the following: \
+Applied binning to the `ASK_AMT` feature to organize the values by set intervals \
+Added more hidden layers to the model \
+I also used a different activation function in the hidden layers (`tanh`), which gave us the highest accuracy score out of all other attempts, but still under 75%
