@@ -44,7 +44,13 @@ Here is what I found after using deep learning the analyze the dataset:
 - The `IS_SUCCESSFUL` column was our target variable for the deep learning model, as it contains binary data referring to whether or not the charity donation was successful 
 - I used the following columns as features for the model: `APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT`
 
+![1](https://user-images.githubusercontent.com/45697471/124656928-d7e86580-de6f-11eb-9e13-8ccba560dfd5.png)
+
+
 ### Compiling, Training, and Evaluating the Model 
+
+![2](https://user-images.githubusercontent.com/45697471/124657054-ff3f3280-de6f-11eb-907c-54b37cbb7049.png)
+
 
 - As we can see from the image, the neural network model has two hidden layers with 80 neurons in the first layer and 30 in the second \
 I used the `ReLU` activation function for the hidden layers, and `Sigmoid` for the output layer 
