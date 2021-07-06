@@ -30,3 +30,16 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 - SPECIAL_CONSIDERATIONS—Special consideration for application
 - ASK_AMT—Funding amount requested
 - IS_SUCCESSFUL—Was the money used effectively
+
+## Resources 
+charity_data.csv
+
+## Results 
+
+Here is what I found after using deep learning the analyze the dataset: 
+
+### Data Preprocessing
+
+- The first step was to remove `EIN` and `NAME` columns from the input data, as they were not relevant to our analysis
+- The `IS_SUCCESSFUL` column was our target variable for the deep learning model, as it contains binary data referring to whether or not the charity donation was successful 
+- I used the following columns as features for the model: `APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT`
