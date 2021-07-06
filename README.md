@@ -3,9 +3,12 @@
 Syed Ahmed 
 July 6, 2021 
 
+![images](https://user-images.githubusercontent.com/45697471/124657472-8a202d00-de70-11eb-9ff7-6c69c29054f4.jpg)
+
+
 ## Overview 
 
-This project explores Alphabet Soup's charity data to classify the success of charitable donations using deep-learning nerual networks with the TensorFlow tool in Python. Data was analyzed using the following steps: 
+This project explores Alphabet Soup's charity data to classify the success of charitable donations using deep-learning neural networks with the TensorFlow library in Python. Data was analyzed using the following steps: 
 
 1. Preprocessing data for the neural networks model
 2. Copiling, training, and evaluating the model
